@@ -2,21 +2,12 @@ import 'package:flutter/material.dart';
 
 part '../extension/widget_extension.dart';
 
-class DialogKitWidget extends StatelessWidget {
-  final Widget child;
-
+class DialogKitWidget {
   /// Dialog builder context
   static BuildContext? _dialogKitContext;
 
-  const DialogKitWidget({
-    Key? key,
-    required this.child,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    _dialogKitContext = context;
-    return child;
+  static set setContext(BuildContext value) {
+    _dialogKitContext = value;
   }
 }
 

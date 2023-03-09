@@ -34,7 +34,7 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
-  overlay_kit:
+  dialog_kit_widget:
     path: ../
   dop_logger:
     git:

@@ -1,5 +1,5 @@
 name: dialog_kit_widget
-description: Flutter Dialog and BottomSheet widget as StatelessWidget and StatefulWidget.
+description: A Flutter Package of Dialog and BottomSheet widget such as StatelessWidget and StatefulWidget.
 version: 0.0.1
 homepage: https://github.com/Mto292/dialog_kit_widget.git
 
